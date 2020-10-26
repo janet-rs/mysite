@@ -1,13 +1,13 @@
 <!-- views/partials/navbar.ejs -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Site</a>
+    <a class="navbar-brand" href="#">B J R S</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" datatarget="#navbarSupportedContent" aria-controls="navbarSupportedContent" ariaexpanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sronly">(current)</span></a>
+                <a class="nav-link" href="#">Inicio <span class="sronly"></span></a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
@@ -24,22 +24,24 @@
                     <a class="dropdown-item" href="#">Otra</a>
                 </div>
             </li>
-            <fb:login-button 
-                scope="public_profile,email"
-                onlogin="checkLoginState();">
-             </fb:login-button>
+
             <li class="nav-item"> 
                 <a class="nav-link" href="/acercade">Acerca de</a>
              </li>
-             
+             <fb:login-button 
+                scope="public_profile,email"
+                onlogin="checkLoginState();">
+             </fb:login-button>
            
         </ul>
 
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-
-        </form>
+            <a class="nav-link" href="/login">LOGIN</a>
+            
+        </form> 
+        
     </div>
 </nav>
 

@@ -25,4 +25,16 @@ router.delete('/', function(req, res) {
   res.send('Te doy un saludo con DELETE');
 });
 
+//LOGIN
+/*$(document).ready(function(){
+  $('.log-btn').click(function(){
+      $('.log-status').addClass('wrong-entry');
+     $('.alert').fadeIn(500);
+     setTimeout( "$('.alert').fadeOut(1500);",3000 );
+  });
+  $('.form-control').keypress(function(){
+      $('.log-status').removeClass('wrong-entry');
+  });
+
+});*/
 module.exports = router;
