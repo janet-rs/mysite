@@ -1,21 +1,28 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image:linear-gradient(#0F0C29,#302B63,#24243e);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   margin-right: 50px;
   margin-left: 50px;
 }
 
-.bg-3 {
-  background-color:#424949 ;
-  color: #555555;
-  }
+.container-1{
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+ h1{
+   text-align: center;
+ }
   .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
   }
   footer{
-    background-image: linear-gradient(#d3cce3,#e9e4f0);
+    background: rgb(65,64,78);
+    background: linear-gradient(90deg, rgba(65,64,78,1) 0%, rgba(63,63,77,1) 35%, rgba(98,119,124,1) 100%);
     text-align: center;
     padding: 10px;
     size: 5cm;
@@ -39,7 +46,8 @@ body {
   color: #1abc9c !important;
   }
   nav{
-    background-image: linear-gradient(#d3cce3,#e9e4f0);
+    background: rgb(65,64,78);
+background: linear-gradient(90deg, rgba(65,64,78,1) 0%, rgba(63,63,77,1) 35%, rgba(98,119,124,1) 100%);
   }
  /*Whatshap*/
     .appWhatsapp{
@@ -55,8 +63,10 @@ body {
     }
     
   /*LOGIN*/
-  #map {
-    height: 500px;
-    width: 100%;
-  }
+  #map-template{
+    height: 60%;
+    width: 60%;
+    top: 40%;
+    position: absolute; 
+     } 
  

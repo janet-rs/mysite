@@ -7,41 +7,26 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Inicio <span class="sronly"></span></a>
+                <a class="nav-link" href="/">Inicio <span class="sronly"></span></a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                API´s
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="../pages/ubicacion.ejs">Geolocalización</a>
-                    <a class="dropdown-item" href="#">Redes sociales</a>
-                    <a class="dropdown-item" href="#">Ecommerce</a>
-                    <a class="dropdown-item" href="#">Streaming</a>
-                    <a class="dropdown-item" href="../pages/ubicacion.ejs">Ubicacion</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Otra</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link"  href="/ubicacion">Mi Ubicación</a>
             </li>
-
+            <li class="nav-item">
+                <a class="nav-link"  href="/streaming">Streaming</a>
+            </li>           
+            
             <li class="nav-item"> 
                 <a class="nav-link" href="/acercade">Acerca de</a>
-             </li>
-             <fb:login-button 
-                scope="public_profile,email"
-                onlogin="checkLoginState();">
-             </fb:login-button>
-           
+            </li> 
+             
+            <li class="nav-item active"> 
+               <a class="nav-link" href="/login">LOGIN</a>
+            </li>  
+                       
         </ul>
 
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-            <a class="nav-link" href="/login">LOGIN</a>
-            
-        </form> 
-        
+              
     </div>
 </nav>
 

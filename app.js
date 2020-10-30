@@ -8,7 +8,8 @@ var bodyParser = require ('body-parser');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var acercadeRouter = require('./routes/acercade');
-var loginRouter = require('./routes/login');
+var ubicacionRouter = require('./routes/ubicacion');
+var streamingRouter = require('./routes/streaming');
 
 
 var app = express();
@@ -26,9 +27,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/login', usersRouter);
 app.use('/acercade', acercadeRouter);
-app.use('/login',loginRouter);
+app.use('/ubicacion',ubicacionRouter);
+app.use('/streaming',streamingRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

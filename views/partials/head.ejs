@@ -1,35 +1,17 @@
-<title>Mi sitio
-    <%= page %>
-    </title>
+<title>Mi sitio<%= page %></title>
     <meta charset="utf-8">
     <meta name="active-menu" content="<%= menuId %>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/f6bbf1d473.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./stylesheets/style.css">
-    <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : '2430020937122065',
-        cookie     : true,
-        xfbml      : true,
-        version    : 'v8.0'
-      });
-        
-      FB.AppEvents.logPageView();   
-        
-    };
-  
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "https://connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-     
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+      
 
 
 
-  </script>
+

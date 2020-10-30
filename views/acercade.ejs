@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <link rel='stylesheet' href='/stylesheets/style.css' />
-   </head>
-  <body >
     
-    <h1>Acerca  de...Brenda Janet Rodríguez Salazar </h1>
-     <img  id="imagen" src="/images/imagen.png" width="500" height="400" />   
-     <p>Nací el 16 de abril del 2001, tengo 19 años y soy de Dolores Hidalgo. Estudio Desarrollo de Software porque se me hace una carrera muy intesante. Mi plan después de
-       de graduarme de TSU  es trabajar y estudiar la Ingeniería en modalidad semiescolarizada.</p>
-    <%- include('partials/script'); %> 
+    <%- include('partials/head') %> 
+
+   </head>
+  <body >   
+    <%- include('partials/navbar'); %>
+  <h1 >Acerca  de...Brenda Janet Rodríguez Salazar </h1>
+  <br>
+    <div class="container-1">
+      <div class="row">
+        <div class="col-sm-5">
+         <img  id="imagen" src="/images/IMG_20200822_174422_549.jpg"  width="400" height="300" />      
+        </div>
+        <div class="col-sm-7">
+          <p>Nací el 16 de abril del 2001, tengo 19 años y soy de Dolores Hidalgo.Soy la menor de 6 hermanos, e hija de Gregorio Rodriguez y Melania Salazar </p>
+          <br>
+          <p>Mis padres son mayor inspiración para seguir estudiando, espero un día poder regresarles algo de todo lo que me han dado</p>
+          <br>
+          <p>Estudio Desarrollo de Software porque se me hace una carrera muy intesante. Mi plan después de
+           de graduarme de TSU  es trabajar y estudiar la Ingeniería en modalidad semiescolarizada.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container-1">
+      <div class="row">
+        <div class="col-sm-8">
+          <br>
+          <p>En mis tiempos libres(que son muy pocos ), me gusta escuchar música , leer algún libro de mi intéres, realizar Mandalas o simplemente charlar un rato con mi familia o mis amigos </p>
+          <p>Algunas de mis canciones favoritas puedes encontrarlas en la sección de Streaming</p>
+          <br>
+         </div>
+        <div class="col-sm-4" >
+          <img src="/images/man.jpg" width="200 %" >
+          
+        </div>
+      </div>
+    </div>
+      <%- include('partials/script'); %> 
   </body>
+  <br>
+  
+
+
+
+
+
+
+</br>
+
   <footer>
     <%- include('partials/footer'); %> 
   </footer>

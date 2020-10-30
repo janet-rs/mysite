@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Master</title>
+        <%- include('../partials/head'); %>
+        <link rel="stylesheet" href="/stylesheets/styleindex.css">
+   
+    </head>
+    <body class="login">
+        
+        <div class="login-box">
+            <img class="avatar" src="/images/c2.jpg" alt="Logo">
+           
+            <form action="../users/login" method="POST">
+                <!--USERNAME-->
+                <label for="username">Username</label>
+                <input type="text" placeholder="username"  id="username" name="username">
+
+                <!--PASSWORD-->
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter Password"  id="password" name="password">
+                <!--Tipo de cuenta-->
+                
+                <!--SUBMIT-->
+                <input type="submit" value="Log In">
+
+                
+                <a href="/signup">No tienes una cuenta?</a>
+               
+
+                
+            </form>
+        </div>
+             
+        <%-include('../partials/script'); %>
+      
+    </body>
+</html>
