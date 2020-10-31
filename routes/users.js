@@ -17,10 +17,8 @@ router.post('/signup', function(req, res, next) {
     username: req.body.username,  
     email: req.body.email,
     nombre:req.body.nombre,
-    edad:req.body.edad,
     password: req.body.password,
-    Tipocuenta:req.body.Tipocuenta
-      
+          
   });
 
   //Guarda un registro en Mongo
