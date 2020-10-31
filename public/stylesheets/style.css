@@ -68,5 +68,9 @@ background: linear-gradient(90deg, rgba(65,64,78,1) 0%, rgba(63,63,77,1) 35%, rg
     width: 60%;
     top: 40%;
     position: absolute; 
+    align-self: start;
+    align-content: center;
      } 
- 
+ .player{
+   align-items: center;
+ }
